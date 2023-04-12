@@ -59,22 +59,27 @@ puts "Is number_students less than or equal to 21?", number_students <= 21
 # Be as technically precise as possible, but don't just copy and paste a definition from the readings.
 # Make sure YOU can explain it that way!
 
+# is 4 less than 9?
 puts 4 < 9
-#YOU DO: Explain.
+# this should print: true
+
 
 books = 3
+# is 4 less than the value of books?
 puts 4 < books
-# YOU DO: Explain.
+# this should print: false
 
 friends = 6
 siblings = 2
+# is the value of friends greater than the value of siblings?
 puts friends > siblings
-# YOU DO: Explain.
+# this should print: true
 
 attendees = 9
 meals = 8
+# is the value of attendees not equal to the value of meals?
 puts attendees != meals
-# YOU DO: Explain.
+# this should print: true
 
 
 #-------------------
