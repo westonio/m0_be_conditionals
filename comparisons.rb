@@ -102,15 +102,18 @@ age = 1
 
 # YOU DO:
 # Determine if the dog loves to play and loves treats
-
+puts loves_to_play && loves_treats
+# should print: true
 
 # Determine if the dog loves to play and loves the dog park
-
+puts loves_to_play && loves_dog_park
+# should pring: false
 
 # Determine if the dog loves to play or loves the dog park
-
+puts loves_to_play || loves_dog_park
+# should print: true
 
 # Determine if the dog loves to play and is a puppy
-
+puts loves_to_play && is_a_puppy
 # What did your final line of code evaluate to? Why do you think that is? Explain.
-# ANSWER:
+# ANSWER: the final line of code results in an 'undefined' error because the variable is_a_puppy has not been defined.
